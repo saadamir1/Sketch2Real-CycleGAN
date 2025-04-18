@@ -50,14 +50,14 @@ The training script includes:
 
 ### Running Web App
 
-```python
-python app.py
+Run the following command in your terminal:
+
+`python app.py`
 
 After starting the server, navigate to http://localhost:5000 in your web browser.
 
-
 The Flask application allows users to:
 
-Upload sketches to generate realistic images
-Upload real images to generate sketches
-View the transformation results in real-time
+- Upload sketches to generate realistic images  
+- Upload real images to generate sketches  
+- View the transformation results in real-time
