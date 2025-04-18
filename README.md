@@ -34,10 +34,10 @@ The model is trained using multiple loss components:
 3. **Cycle Consistency Loss**: Ensures that transforming an image to the other domain and back results in the original image
 
 # Pretrained model weights
-generator_G.pth # Sketch to Real generator
-generator_F.pth # Real to Sketch generator
-discriminator_D_X.pth # Real image discriminator
-discriminator_D_Y.pth # Sketch discriminator
+- generator_G.pth # Sketch to Real generator 
+- generator_F.pth # Real to Sketch generator 
+- discriminator_D_X.pth # Real image discriminator
+- discriminator_D_Y.pth # Sketch discriminator
 
 # The training script includes:
 - DataLoader configuration for batching

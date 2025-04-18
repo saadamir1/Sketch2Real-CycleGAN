@@ -1,5 +1,5 @@
 """
-UI for image conversion operations... Sketch to Image & Image to Sketch
+Web App; Sketch to Image & Image to Sketch
 """
 from flask import Flask, request, render_template, redirect, url_for
 import torch
